@@ -99,9 +99,11 @@ describe 'nodejs', :type => :class do
             })
           end
 
-          it 'the repo apt::source resource should contain include_src = true' do
+          it 'the repo apt::source resource should contain include = {src = true}' do
             should contain_apt__source('nodesource').with({
-              'src' => true,
+              'include' => {
+                'src' => true,
+              },
             })
           end
         end
@@ -113,9 +115,11 @@ describe 'nodejs', :type => :class do
             })
           end
 
-          it 'the repo apt::source resource should contain include_src = false' do
+          it 'the repo apt::source resource should contain include = {src = false}' do
             should contain_apt__source('nodesource').with({
-              'src' => false,
+              'include' => {
+                'src' => false,
+              },
             })
           end
         end
