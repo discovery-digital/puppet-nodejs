@@ -1,6 +1,6 @@
 # puppet-nodejs module
 
-[![Build Status](https://travis-ci.org/puppetlabs/puppetlabs-nodejs.png)](http://travis-ci.org/puppetlabs/puppetlabs-nodejs)
+[![Build Status](https://travis-ci.org/puppet-community/puppet-nodejs.png)](http://travis-ci.org/puppet-community/puppet-nodejs)
 
 #### Table of Contents
 
@@ -458,7 +458,7 @@ installed and is applied before this module.
 
 If using Gentoo, you will need to ensure `gentoo-portage` is installed.
 
-If using Windows, you will need to ensure that `rismoney-chocolatey` is
+If using Windows, you will need to ensure that `chocolatey-chocolatey` is
 installed.
 
 nodejs::npm has the ability to fetch npm packages from Git sources. If you
